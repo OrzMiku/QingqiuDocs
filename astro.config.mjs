@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
 const locales = {
-	'zh-cn': {
+	'root': {
 		label: '简体中文',
 		lang: 'zh-CN',
 	},
@@ -21,7 +21,7 @@ export default defineConfig({
 				'zh-CN': '青丘',
 				'en': 'Qingqiu',
 			},
-			defaultLocale: 'zh-cn',
+			defaultLocale: 'root',
 			locales,
 			social: {
 				github: 'https://github.com/OrzMiku/QingqiuDocs',
