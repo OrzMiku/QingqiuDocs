@@ -44,7 +44,7 @@ export default defineConfig({
 					},
 				}
 			],
-			favicon: './src/assets/avatarHead.png',
+			favicon: '/favicon.ico',
 		}),
 	],
 });
