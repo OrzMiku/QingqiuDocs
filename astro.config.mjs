@@ -24,7 +24,7 @@ export default defineConfig({
 			defaultLocale: 'zh-cn',
 			locales,
 			social: {
-				github: 'https://github.com/OrzMiku/docs',
+				github: 'https://github.com/OrzMiku/QingqiuDocs',
 			},
 			sidebar: [
 				{
