@@ -3,12 +3,16 @@ title: Qingqiu
 description: Fragrant grass covers Qingqiu, flowers surround the green stream.
 ---
 
-import { CardGrid, LinkCard } from "@astrojs/starlight/components";
+import { CardGrid, LinkCard, Card } from "@astrojs/starlight/components";
 
 <CardGrid>
+  <Card title="Join the channel" icon="comment">
+      For Chinese users, you can join our <a href="https://pd.qq.com/s/37h3fi7c5">QQ channel</a>.\
+      For non-Chinese users, you can join our <a href="#TODO_discord">Discord channel</a>.
+  </Card>
   <LinkCard
     title="LunarFox Modpack"
-    description="LunarFox is a performance integration pack with quality-of-life mods and OptiFine alternatives. The modpack includes some out-of-the-box mod configurations and good performance configurations."
+    description="LunarFox is a performance modpack with quality-of-life mods and OptiFine alternatives. The modpack includes some out-of-the-box mod configurations and good performance configurations."
     href="./lunarfox/"
   />
 </CardGrid>

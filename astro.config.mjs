@@ -41,7 +41,7 @@ export default defineConfig({
 					},
 					autogenerate: {
 						directory: 'lunarfox',
-					},
+					}
 				}
 			],
 			favicon: '/favicon.ico',
