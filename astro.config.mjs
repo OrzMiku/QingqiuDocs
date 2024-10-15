@@ -21,11 +21,18 @@ export default defineConfig({
 				'zh-CN': '青丘',
 				'en': 'Qingqiu',
 			},
-			defaultLocale: 'root',
-			locales,
+			favicon: '/favicon.ico',
+			lastUpdated: true,
+			editLink: {
+				baseUrl: 'https://github.com/OrzMiku/QingqiuDocs/edit/main/',
+			},
 			social: {
 				github: 'https://github.com/OrzMiku/QingqiuDocs',
 			},
+			customCss: [
+				"./src/assets/custom.css",
+			],
+			locales,
 			sidebar: [
 				{
 					label: '青丘',
@@ -43,8 +50,7 @@ export default defineConfig({
 						directory: 'lunarfox',
 					}
 				}
-			],
-			favicon: '/favicon.ico',
+			],			
 		}),
 	],
 });
