@@ -1,6 +1,7 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightLinksValidator from 'starlight-links-validator'
 
 const locales = {
 	'root': {
@@ -13,10 +14,17 @@ const locales = {
 	},
 };
 
+const site = "https://qdocs.miku.show";
+
 // https://astro.build/config
 export default defineConfig({
+	site,
 	integrations: [
 		starlight({
+			plugins: [starlightLinksValidator({
+				errorOnFallbackPages: false,
+				errorOnInconsistentLocale: true,
+			})],
 			title: {
 				'zh-CN': '青丘',
 				'en': 'Qingqiu',
