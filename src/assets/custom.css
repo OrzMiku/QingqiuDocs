@@ -25,3 +25,33 @@
 [data-has-hero] .hero > img {
 	filter: drop-shadow(0 0 3rem var(--overlay-blurple));
 }
+
+/* Table styling */
+.sl-markdown-content table:not(:where(.not-content *)) {
+	display: block;
+	overflow: auto;
+	border-spacing: 0;
+	width: fit-content;
+	border: 1px solid var(--sl-color-gray-5);
+}
+
+.sl-markdown-content :is(th, td):not(:where(.not-content *)) {
+	border-bottom: 1px solid var(--sl-color-gray-5);
+	padding: 0.5rem 1rem;
+	/* Align text to the top of the row in multiline tables. */
+	vertical-align: baseline;
+}
+
+.sl-markdown-content :is(th:first-child, td:first-child):not(:where(.not-content *)) {
+	padding-inline-start: 1rem;
+}
+
+.sl-markdown-content :is(th:last-child, td:last-child):not(:where(.not-content *)) {
+	padding-inline-end: 1rem;
+}
+
+.sl-markdown-content th:not(:where(.not-content *)) {
+	background-color: var(--sl-color-gray-7);
+	color: var(--sl-color-white);
+	font-weight: 600;
+}
