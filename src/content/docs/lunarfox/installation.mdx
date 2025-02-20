@@ -34,17 +34,8 @@ import { Aside, Badge } from "@astrojs/starlight/components";
   [packwiz](https://packwiz.infra.link/) 导出整合包。
 </Aside>
 
-## Pojav/FCL 注意事项
-
-<Aside type="danger" title="兼容性警告">
+<Aside type="danger" title="移动端兼容性警告">
   请注意，LunarFox 整合包并未针对移动端设计，因此不保证在 Pojav/FCL
-  上的兼容性。在 Pojav/FCL（或其他移动端启动器） 上使用 LunarFox
-  整合包可能会导致游戏崩溃或其他问题。请不要汇报 Pojav/FCL 上的任何问题。
+  （或其他任何移动端启动器）上的兼容性。在移动端上使用 LunarFox
+  整合包可能会导致游戏崩溃或其他问题。请不要汇报移动端上的任何问题。
 </Aside>
-
-如果您在 Pojav/FCL 上使用 LunarFox 整合包，下面是一些可能有效的建议：
-
-- 禁用 ModernUI 模组，绝大多数情况下 ModernUI 模组会导致游戏崩溃。
-- 使用支持 Sodium 的渲染器，如 Zink、LTW 渲染。
-- 截止目前，LTW 渲染器暂不兼容 Xaero's WorldMap/MiniMap 模组，如有需要请使用其他地图模组。
-- 截止目前，LTW 渲染器暂不（完全）支持着色器渲染。
