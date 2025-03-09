@@ -25,14 +25,20 @@ import { CardGrid, LinkCard, Card, Aside } from "@astrojs/starlight/components";
 
 ## 快速开始
 
+<Card title="加入频道" icon="comment">
+    对于中文群体，您可以加入我们的 <a href="https://pd.qq.com/s/1vbkit4bj">QQ 频道</a>。\
+    对于非中文群体，您可以加入我们的 <a href="https://discord.gg/z974WwPEJt">Discord 频道</a>。
+</Card>
+
 <CardGrid>
-  <Card title="Join the channel" icon="comment">
-      对于中文群体，您可以加入我们的 <a href="https://pd.qq.com/s/1vbkit4bj">QQ 频道</a>。\
-      对于非中文群体，您可以加入我们的 <a href="https://discord.gg/z974WwPEJt">Discord 频道</a>。
-  </Card>
   <LinkCard
     title="LunarFox 整合包"
     description="LunarFox 是一个性能整合包，带有生活质量提升模组和 OptiFine 替代方案。该整合包包括一些开箱即用的模组配置和良好的性能配置。"
     href="/lunarfox/"
+  />
+  <LinkCard
+    title="StarFox 整合包"
+    description="一个简单的性能整合包。它是 LunarFox 的基础。"
+    href="https://github.com/OrzMiku/starfox"
   />
 </CardGrid>

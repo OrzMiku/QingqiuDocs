@@ -23,14 +23,20 @@ import { CardGrid, LinkCard, Card, Aside } from "@astrojs/starlight/components";
 
 ## Quick Start
 
+<Card title="Join the channel" icon="comment">
+    For Chinese users, you can join our <a href="https://pd.qq.com/s/1vbkit4bj">QQ channel</a>.\
+    For non-Chinese users, you can join our <a href="https://discord.gg/z974WwPEJt">Discord channel</a>.
+</Card>
+
 <CardGrid>
-  <Card title="Join the channel" icon="comment">
-      For Chinese users, you can join our <a href="https://pd.qq.com/s/1vbkit4bj">QQ channel</a>.\
-      For non-Chinese users, you can join our <a href="https://discord.gg/z974WwPEJt">Discord channel</a>.
-  </Card>
   <LinkCard
     title="LunarFox Modpack"
     description="LunarFox is a performance modpack with quality-of-life mods and OptiFine alternatives. The modpack includes some out-of-the-box mod configurations and good performance configurations."
     href="/en/lunarfox/"
+  />
+  <LinkCard
+    title="StarFox Modpack"
+    description="A simple performance modpack. It's the base for LunarFox."
+    href="https://github.com/OrzMiku/starfox"
   />
 </CardGrid>
