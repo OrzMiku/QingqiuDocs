@@ -5,23 +5,28 @@ sidebar:
   order: 1
 ---
 
-import { LinkCard, Aside } from "@astrojs/starlight/components";
+import { CardGrid, LinkCard, Aside } from "@astrojs/starlight/components";
 
-<LinkCard
-  title="安装"
-  description="LunarFox 整合包安装指南"
-  href="/lunarfox/installation"
-/>
+<CardGrid>
+  <LinkCard
+    title="获取 LunarFox 整合包"
+    href="https://modrinth.com/modpack/lunarfox"
+  />
+  <LinkCard
+    title="完整功能列表"
+    href="/lunarfox/features/"
+  />
+</CardGrid>
 
 ## 🦊 LunarFox
 
 LunarFox 是一个性能整合包，带有生活质量模组和 OptiFine 替代方案。该整合包包括一些开箱即用的模组配置和良好的性能配置。
 
-## 📦 特点
+## 📦 功能
 
 ### OptiFine 替代方案
 
-LunarFox 使用一系列模组来替代 OptiFine 的功能。详细列表请参见 Fabric Wiki：[OptiFine 替代品](https://wiki.fabricmc.net/zh_cn:community:optifine_alternatives)。如果你不想手动安装这些模组，可以直接使用 LunarFox 整合包。
+LunarFox 使用一系列模组来替代 OptiFine 的功能。详细列表请参见 [OptiFine 替代品](https://optifine.alternatives.lambdaurora.dev/)。如果你不想手动安装这些模组，可以直接使用 LunarFox 整合包。
 
 ### 性能优化
 
@@ -37,5 +42,3 @@ LunarFox 使用一系列模组来替代 OptiFine 的功能。详细列表请参�
 
 - 使用 Litematic 模组时，需要更改其快捷键或 `打开世界地图` 的快捷键。
 - 发现问题或有建议？欢迎在 [GitHub](https://github.com/OrzMiku/lunarfox) 上提交 Issue 或 Pull Request。
-- 对于中文群体，您可以加入我们的 [QQ 频道](https://pd.qq.com/s/1vbkit4bj)。
-- 对于非中文群体，您可以加入我们的 [Discord 频道](https://discord.gg/z974WwPEJt)。
