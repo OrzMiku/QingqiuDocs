@@ -1,9 +1,9 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import starlightLinksValidator from 'starlight-links-validator'
+import starlightLinksValidatorPlugin from 'starlight-links-validator';
 
-const locales = {
+export const locales = {
 	'root': {
 		label: '简体中文',
 		lang: 'zh-CN',
@@ -11,20 +11,14 @@ const locales = {
 	'en': {
 		label: 'English',
 		lang: 'en',
-	},
-};
-
-const site = "https://qdocs.miku.show";
+	}
+}
 
 // https://astro.build/config
 export default defineConfig({
-	site,
+	site: "https://qdocs.miku.show",
 	integrations: [
 		starlight({
-			plugins: [starlightLinksValidator({
-				errorOnFallbackPages: false,
-				errorOnInconsistentLocale: true,
-			})],
 			title: {
 				'zh-CN': '青丘',
 				'en': 'Qingqiu',
@@ -38,7 +32,7 @@ export default defineConfig({
 				github: 'https://github.com/OrzMiku/QingqiuDocs',
 			},
 			customCss: [
-				"./src/assets/custom.css",
+				"./src/styles/index.css",
 			],
 			locales,
 			sidebar: [
@@ -58,7 +52,10 @@ export default defineConfig({
 						directory: 'lunarfox',
 					}
 				}
-			],			
+			],		
+			plugins: [
+				starlightLinksValidatorPlugin()
+			],
 		}),
 	],
 });

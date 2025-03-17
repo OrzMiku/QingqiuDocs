@@ -1,5 +1,5 @@
 {
-  "name": "qingqiu-docs",
+  "name": "qdocs",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -10,15 +10,9 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/starlight": "0.32.1",
-    "astro": "5.3.0",
-    "sharp": "^0.32.5",
-    "starlight-links-validator": "^0.13.4"
-  },
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "esbuild",
-      "sharp"
-    ]
+    "@astrojs/starlight": "^0.32.2",
+    "astro": "^5.1.5",
+    "sharp": "^0.32.6",
+    "starlight-links-validator": "^0.14.3"
   }
 }
