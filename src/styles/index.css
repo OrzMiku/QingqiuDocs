@@ -1,6 +1,8 @@
 :root {
     --blue-hsl: 231, 89%, 61%;
     --overlay-blurple: hsla(var(--blue-hsl), 0.2);
+	--sl-content-width: 90%;
+	--sl-sidebar-width: 20rem;
 }
 
 :root[data-theme='light'] {
@@ -28,6 +30,8 @@
 
 /* Table styling */
 .sl-markdown-content table:not(:where(.not-content *)) {
+	width: 100%;
+    max-width: 100%;
 	display: block;
 	overflow: auto;
 	border-spacing: 0;
@@ -36,6 +40,7 @@
 }
 
 .sl-markdown-content :is(th, td):not(:where(.not-content *)) {
+	max-width: 20rem;
 	border-bottom: 1px solid var(--sl-color-gray-5);
 	padding: 0.5rem 1rem;
 	/* Align text to the top of the row in multiline tables. */
