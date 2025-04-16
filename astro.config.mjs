@@ -28,9 +28,13 @@ export default defineConfig({
 			editLink: {
 				baseUrl: 'https://github.com/OrzMiku/QingqiuDocs/edit/main/',
 			},
-			social: {
-				github: 'https://github.com/OrzMiku/QingqiuDocs',
-			},
+			social: [
+				{
+					icon: 'github',
+					label: 'GitHub',
+					href: 'https://github.com/OrzMiku/QingqiuDocs'
+				} 
+			],
 			customCss: [
 				"./src/styles/index.css",
 			],
