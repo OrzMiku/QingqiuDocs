@@ -1,0 +1,74 @@
+---
+interface Feature {
+  name: string;
+  url: string;
+  description: {
+    zh_CN: string;
+    en_US: string;
+  };
+  supported_version: {
+    version: string;
+    status: "supported" | "partial" | "unsupported" | "deprecated";
+  }[];
+}
+
+const { features, lang } = Astro.props;
+
+interface Props {
+  features: Feature[];
+  lang: "zh_CN" | "en_US";
+}
+
+const versions = [
+  ...new Set(
+    features.flatMap((item) => item.supported_version.map((v) => v.version))
+  ),
+].sort((a, b) => b.localeCompare(a));
+
+const i18n = {
+  "table.feature": {
+    zh_CN: "特性",
+    en_US: "Feature",
+  },
+  "table.description": {
+    zh_CN: "描述",
+    en_US: "Description",
+  },
+};
+
+const statusIcons = {
+  supported: "✅",
+  partial: "🚧",
+  unsupported: "⛔",
+  deprecated: "👋",
+};
+---
+
+<table>
+  <thead>
+    <tr>
+      <th>{i18n["table.feature"][lang]}</th>
+      <th>{i18n["table.description"][lang]}</th>
+      {versions.map((version) => <th>{version}</th>)}
+    </tr>
+  </thead>
+  <tbody>
+    {
+      features.map((mod) => (
+        <tr>
+          <th>
+            <a href={mod.url} rel={mod.name}>
+              {mod.name}
+            </a>
+          </th>
+          <th>{mod.description[lang]}</th>
+          {versions.map((version) => {
+            const v = mod.supported_version.find((v) => v.version === version);
+            const status = v?.status || "unsupported";
+            return <td>{statusIcons[status as keyof typeof statusIcons]}</td>;
+          })}
+        </tr>
+      ))
+    }
+  </tbody>
+</table>
