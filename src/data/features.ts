@@ -886,6 +886,7 @@ export const features = [
       en_US: "A modern schematic mod.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -914,6 +915,7 @@ export const features = [
       en_US: "Configurable \"mini-F3\" info lines, and various overlay renderers.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1042,6 +1044,7 @@ export const features = [
       en_US: "Alternative Options Menu for Sodium.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1168,6 +1171,7 @@ export const features = [
       en_US: "Adds a bunch of configurable client-side tweaks.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1240,6 +1244,7 @@ export const features = [
       en_US: "Xaero WorldMap / Minimap Extra Features.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
