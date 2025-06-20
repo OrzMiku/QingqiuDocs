@@ -7,6 +7,7 @@ export const features = [
       en_US: "Optimization mod that focuses on things other than rendering.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -672,6 +673,7 @@ export const features = [
       en_US: "This mod adds player heads next to their chat messages.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -758,7 +760,8 @@ export const features = [
       en_US: "This Fabric mod adds a neat little particle effect to leaf blocks.",
     },
     supported_version: [
-      { version: "1.21.5", status: "deprecated" },
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
       { version: "1.20.1", status: "supported" },
@@ -816,6 +819,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
+      { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
       { version: "1.20.1", status: "supported" },
@@ -872,6 +876,7 @@ export const features = [
       en_US: "Provides a better UI than the vanilla Minecraft \"Open to LAN\" screen and more features.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1115,6 +1120,7 @@ export const features = [
       en_US: "A Sodium addon that adds features that shouldn't be in Sodium.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
