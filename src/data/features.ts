@@ -490,6 +490,7 @@ export const features = [
       en_US: "Renders the player skin layer in 3d.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -561,6 +562,7 @@ export const features = [
       en_US: "Improves the ingame HUD while riding a mount.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1139,6 +1141,7 @@ export const features = [
       en_US: "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
