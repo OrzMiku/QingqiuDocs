@@ -65,6 +65,7 @@ export const features = [
       en_US: "This mod uses async path-tracing to hide Tiles/Entities that are not visible.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -94,6 +95,7 @@ export const features = [
       en_US: "This mod lets you return to the Title Screen early while your world is still saving in the background.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -197,6 +199,7 @@ export const features = [
       en_US: "A mod that changes how multiple types of culling are handled in order to improve performance.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -515,6 +518,7 @@ export const features = [
       en_US: "Show the color and age of axolotls when in buckets.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
