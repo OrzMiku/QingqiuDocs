@@ -1,6 +1,6 @@
 ---
 title: 简介
-description: LunarFox 是一个性能整合包，带有生活质量提升模组和 OptiFine 替代方案。该整合包包括一些开箱即用的模组配置和良好的性能配置。
+description: LunarFox 是一个功能强大的 Minecraft 整合包，专注于性能优化、视觉增强和生活质量提升。
 sidebar:
   order: 1
 ---
@@ -9,40 +9,57 @@ import { CardGrid, LinkCard, Aside } from "@astrojs/starlight/components";
 
 <CardGrid>
   <LinkCard
-    title="获取 LunarFox 整合包"
+    title="获取 LunarFox"
     href="https://modrinth.com/modpack/lunarfox"
+    description="前往 Modrinth 下载整合包。"
   />
   <LinkCard
-    title="完整功能列表"
+    title="查看完整功能列表"
     href="/lunarfox/features/"
+    description="了解 LunarFox 包含的所有模组。"
   />
 </CardGrid>
 
-## 🦊 LunarFox
+## 🦊 什么是 LunarFox？
 
 [![Logo](https://cdn.modrinth.com/data/r7CwLIIr/images/2e792de45ffdd41d8c1c8b59a804f3500ad1ab03.png)](https://github.com/OrzMiku/lunarfox)
 
-LunarFox 是一个性能整合包，带有生活质量模组和 OptiFine 替代方案。该整合包包括一些开箱即用的模组配置和良好的性能配置。
+**LunarFox** 是一个现代化的 Minecraft 整合包，旨在通过一系列精心挑选和预先配置的模组，为玩家提供流畅且功能丰富的游戏体验。它整合了主流的性能优化模组、完整的 OptiFine 功能替代方案以及大量改善游戏便利性的生活质量（QoL）模组。
 
-## 📦 特点
+无论您是希望获得更高帧率，还是想使用光影和高清资源包，或是需要更专业的游戏工具，LunarFox 都为您准备好了开箱即用的解决方案。
 
-### OptiFine 替代方案
+## 📦 核心特性
 
-LunarFox 使用一系列模组来替代 OptiFine 的功能。详细列表请参见 Fabric Wiki：[OptiFine 替代品](https://wiki.fabricmc.net/zh_cn:community:optifine_alternatives)。如果你不想手动安装这些模组，可以直接使用 LunarFox 整合包。
+### 🚀 全面的性能优化
 
-### 性能优化
+整合包通过集成多个业界公认的性能模组，从多个层面优化游戏，以实现更高的帧率和更稳定的游戏表现。
 
-部分 OptiFine 替代模组专注于性能优化，提高游戏性能，减少卡顿和提高帧数。整合包还包含其他性能优化模组，并已配置好相关选项。
+- **渲染引擎**: 使用 **Sodium** 作为核心渲染引擎，显著提高帧率。
+- **内存管理**: **FerriteCore** 等模组可以有效降低游戏的内存占用。
+- **游戏逻辑与区块性能**: **Lithium** 和 **C2ME** 负责优化游戏刻和区块加载，减少卡顿。
+- **实体与方块剔除**: 通过 **EntityCulling** 等模组，避免渲染视野外不必要的对象。
 
-### 生活质量（QoL）模组
+### ✨ 完整的视觉增强 (OptiFine 替代)
 
-> 生活质量（QoL）模组旨在改善游戏体验，而非增加游戏内容。通常提供更好的用户界面、控制和信息反馈等。
+LunarFox 包含了一整套模组，用于实现 OptiFine 的各项视觉增强功能，让您无需安装 OptiFine 也能享受现代化的视觉体验。
 
-整合包包含地图模组、物品管理器、背包整理等大量 QoL 模组。对于红石与生电玩家，内置了 Masa 全家桶和一些常用模组。
+- **光影支持**: 通过 **Iris Shaders** 加载您喜爱的 OptiFine 光影包。
+- **资源包扩展**: 支持连接纹理 (**Continuity**)、自定义物品纹理 (**CIT Resewn**)、自定义实体模型 (**EMF**) 等高级资源包特性。
+- **动态光照**: **LambDynamicLights** 为发光物品和实体提供动态光源效果。
+- **自定义天空**: **FabricSkyBoxes** 允许资源包添加自定义的天空渲染。
+
+### 🛠️ 实用的生活质量 (QoL) 模组
+
+为了让游戏操作更便捷、信息更直观，LunarFox 加入了大量广受欢迎的生活质量模组。
+
+- **地图与导航**: **Xaero's Minimap** 与 **World Map** 提供功能强大的小地图和世界地图。
+- **库存管理**: **Inventory Profiles Next** 和 **Mouse Tweaks** 提供强大的库存整理和物品操作功能。
+- **信息显示**: **Jade** 可在准星处显示方块和实体信息，**BetterF3** 则提供了更清晰的调试界面。
+- **技术性工具**: 为红石和建筑玩家内置了 **Litematica**、**Tweakeroo** 和 **MiniHUD** 等模组。
 
 ## 🎮 小贴士
 
-- 使用 Litematic 模组时，需要更改其快捷键或 `打开世界地图` 的快捷键。
+- 使用 Litematic 模组时，可能需要更改其快捷键或 `打开世界地图` 的快捷键以避免冲突。
 - 发现问题或有建议？欢迎在 [GitHub](https://github.com/OrzMiku/lunarfox) 上提交 Issue 或 Pull Request。
 
 ## ⭐ 致谢
