@@ -26,6 +26,14 @@ const versions = [
 ].sort((a, b) => b.localeCompare(a));
 
 const i18n = {
+  "filter.label": {
+    zh_CN: "版本筛选",
+    en_US: "Version Filter",
+  },
+  "filter.all": {
+    zh_CN: "全部",
+    en_US: "All",
+  },
   "table.feature": {
     zh_CN: "特性",
     en_US: "Feature",
@@ -44,31 +52,203 @@ const statusIcons = {
 };
 ---
 
-<table>
-  <thead>
-    <tr>
-      <th>{i18n["table.feature"][lang]}</th>
-      <th>{i18n["table.description"][lang]}</th>
-      {versions.map((version) => <th>{version}</th>)}
-    </tr>
-  </thead>
-  <tbody>
-    {
-      features.map((mod) => (
-        <tr>
-          <th>
-            <a href={mod.url} rel={mod.name}>
-              {mod.name}
-            </a>
-          </th>
-          <th>{mod.description[lang]}</th>
-          {versions.map((version) => {
-            const v = mod.supported_version.find((v) => v.version === version);
-            const status = v?.status || "unsupported";
-            return <td>{statusIcons[status as keyof typeof statusIcons]}</td>;
-          })}
-        </tr>
-      ))
+<style>
+/* Filter Styles */
+.filter {
+  width: fit-content;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: var(--sl-color-bg-nav);
+  border-radius: 0.375rem;
+  border: 1px solid var(--sl-color-hairline-shade);
+  box-shadow: var(--sl-shadow-sm);
+}
+
+.filter > label {
+  display: block;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--sl-color-text);
+  margin-bottom: 0.75rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.checkbox-item {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  background: var(--sl-color-bg);
+  border-radius: 0.25rem;
+  border: 1px solid var(--sl-color-hairline-light);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  box-shadow: var(--sl-shadow-sm);
+}
+
+.checkbox-item:hover {
+  border-color: var(--sl-color-text-accent);
+  background: var(--sl-color-bg-sidebar);
+}
+
+.checkbox-item input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-item label {
+  font-size: 0.875rem;
+  color: var(--sl-color-text);
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.checkbox-item:has(input:checked) {
+  background: var(--sl-color-bg-accent);
+  border-color: var(--sl-color-text-accent);
+}
+
+.checkbox-item:has(input:checked) label {
+  color: var(--sl-badge-default-text);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .checkbox-group {
+    gap: 0.375rem;
+  }
+  
+  .checkbox-item {
+    padding: 0.25rem 0.5rem;
+  }
+  
+  .checkbox-item label {
+    font-size: 0.8rem;
+  }
+}
+</style>
+
+<div class="feature-table-container">
+  <!-- Version Filter -->
+  <div class="filter">
+    <label>{i18n["filter.label"][lang]}</label>
+    <div class="checkbox-group">
+      <div class="checkbox-item">
+        <input type="checkbox" id="version-all" checked />
+        <label for="version-all">{i18n["filter.all"][lang]}</label>
+      </div>
+      {versions.map((version) => (
+        <div class="checkbox-item">
+          <input type="checkbox" id={`version-${version}`} value={version} class="version-checkbox" checked />
+          <label for={`version-${version}`}>{version}</label>
+        </div>
+      ))}
+    </div>
+  </div>
+  <!-- Feature Table -->
+  <table class="feature-table">
+    <thead>
+      <tr>
+        <th>{i18n["table.feature"][lang]}</th>
+        <th>{i18n["table.description"][lang]}</th>
+        {versions.map((version) => <th data-version={version}>{version}</th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {
+        features.map((mod) => (
+          <tr data-feature={mod.name}>
+            <th>
+              <a href={mod.url} rel={mod.name}>
+                {mod.name}
+              </a>
+            </th>
+            <th>{mod.description[lang]}</th>
+            {versions.map((version) => {
+              const v = mod.supported_version.find(
+                (v) => v.version === version
+              );
+              const status = v?.status || "unsupported";
+              return <td data-version={version}>{statusIcons[status as keyof typeof statusIcons]}</td>;
+            })}
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const allCheckbox = document.getElementById('version-all') as HTMLInputElement;
+    const versionCheckboxes = document.querySelectorAll('.version-checkbox') as NodeListOf<HTMLInputElement>;
+    const table = document.querySelector('.feature-table') as HTMLTableElement;
+    
+    function updateTableColumns() {
+      const selectedVersions = Array.from(versionCheckboxes)
+        .filter(checkbox => checkbox.checked)
+        .map(checkbox => checkbox.value);
+      
+      const versionHeaders = table.querySelectorAll('th[data-version]');
+      const versionCells = table.querySelectorAll('td[data-version]');
+      
+      versionHeaders.forEach(header => {
+        const version = header.getAttribute('data-version');
+        if (version && selectedVersions.includes(version)) {
+          header.classList.remove('hidden');
+        } else {
+          header.classList.add('hidden');
+        }
+      });
+      
+      versionCells.forEach(cell => {
+        const version = cell.getAttribute('data-version');
+        if (version && selectedVersions.includes(version)) {
+          cell.classList.remove('hidden');
+        } else {
+          cell.classList.add('hidden');
+        }
+      });
     }
-  </tbody>
-</table>
+    
+    // Handle "All" checkbox
+    allCheckbox.addEventListener('change', function() {
+      versionCheckboxes.forEach(checkbox => {
+        checkbox.checked = this.checked;
+      });
+      updateTableColumns();
+    });
+    
+    // Handle individual version checkboxes
+    versionCheckboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', function() {
+        const allChecked = Array.from(versionCheckboxes).every(cb => cb.checked);
+        const noneChecked = Array.from(versionCheckboxes).every(cb => !cb.checked);
+        
+        if (allChecked) {
+          allCheckbox.checked = true;
+          allCheckbox.indeterminate = false;
+        } else if (noneChecked) {
+          allCheckbox.checked = false;
+          allCheckbox.indeterminate = false;
+        } else {
+          allCheckbox.checked = false;
+          allCheckbox.indeterminate = true;
+        }
+        
+        updateTableColumns();
+      });
+    });
+  });
+</script>
