@@ -1,13 +1,6 @@
 :root {
     --blue-hsl: 231, 89%, 61%;
     --overlay-blurple: hsla(var(--blue-hsl), 0.2);
-	--sl-content-width: 90%;
-}
-
-@media (max-width: 75rem) {
-	:root {
-		--sl-content-width: 100%;
-	}
 }
 
 :root[data-theme='light'] {
