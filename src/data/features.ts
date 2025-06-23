@@ -37,6 +37,7 @@ export const features = [
       en_US: "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "deprecated" },
       { version: "1.21.1", status: "deprecated" },
@@ -302,6 +303,7 @@ export const features = [
       en_US: "Allow for animating more game textures using the MCPatcher/OptiFine animation format.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -549,6 +551,7 @@ export const features = [
       en_US: "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -790,6 +793,21 @@ export const features = [
     ],
   },
   {
+    name: "Held Item Info",
+    url: "https://modrinth.com/mod/highlight",
+    description: {
+      zh_CN: "在物品名称下显示有关所持物品的信息（如附魔）。",
+      en_US: "Shows information (like enchantments) about the held item under its name.",
+    },
+    supported_version: [
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
+  },
+  {
     name: "Highlight",
     url: "https://modrinth.com/mod/highlight",
     description: {
@@ -999,6 +1017,7 @@ export const features = [
       en_US: "A simple mod to solve various problems with packets/NBT's.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1208,13 +1227,14 @@ export const features = [
     ],
   },
   {
-    name: "WaveyCapes",
+    name: "Wavey Capes",
     url: "https://modrinth.com/mod/kYuIpRLv",
     description: {
-      zh_CN: "披风不应该是一个静态的平板。WaveyCapes 模组以更流畅的方式为披风添加动画，添加物理效果并以一个弯曲的部分渲染，而不是小立方体。",
-      en_US: "The cape shouldn't be a static slab. WaveyCapes mod animates the cape in a more fluent way, adding physics and rendering it in one bent part instead of small cubes.",
+      zh_CN: "披风不应该是一个静态的平板。Wavey Capes 模组以更流畅的方式为披风添加动画，添加物理效果并以一个弯曲的部分渲染，而不是小立方体。",
+      en_US: "The cape shouldn't be a static slab. Wavey Capes mod animates the cape in a more fluent way, adding physics and rendering it in one bent part instead of small cubes.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
