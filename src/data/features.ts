@@ -889,8 +889,8 @@ export const features = [
       en_US: "A mod allow to use chinese pinyin to search contents.",
     },
     supported_version: [
-      { version: "1.21.5", status: "unsupported" },
-      { version: "1.21.4", status: "unsupported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
       { version: "1.20.1", status: "supported" },
     ],
