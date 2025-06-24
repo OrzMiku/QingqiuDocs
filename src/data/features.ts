@@ -639,6 +639,7 @@ export const features = [
       en_US: "Allows for render distances greater than the server's view-distance.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -858,6 +859,7 @@ export const features = [
       en_US: "Proof of concept mod to for a different system to swap items in the inventory.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1003,6 +1005,7 @@ export const features = [
       en_US: "Adding and improving animations in Third-Person.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1090,6 +1093,7 @@ export const features = [
       en_US: "In-game resource pack, data pack and shader browser.",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
