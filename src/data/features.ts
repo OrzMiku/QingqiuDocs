@@ -15,6 +15,21 @@ export const features = [
     ],
   },
   {
+    name: "Boat Item View",
+    url: "https://modrinth.com/mod/boat-item-view",
+    description: {
+      zh_CN: "在移动的船上查看你持有的物品！",
+      en_US: "See your held items when in a moving boat!",
+    },
+    supported_version: [
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
+  },
+  {
     name: "Concurrent Chunk Management Engine",
     url: "https://modrinth.com/mod/VSNURh3q",
     description: {
@@ -34,7 +49,8 @@ export const features = [
     url: "https://modrinth.com/mod/dynamic-fps",
     description: {
       zh_CN: "在 Minecraft 于后台、空闲或使用电池时，降低资源使用率。",
-      en_US: "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
+      en_US:
+        "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -49,7 +65,8 @@ export const features = [
     url: "https://modrinth.com/mod/OVuFYfre",
     description: {
       zh_CN: "使用更现代的方法优化和自定义方块实体渲染。",
-      en_US: "Optimize and customize block entity rendering with a more modern approach.",
+      en_US:
+        "Optimize and customize block entity rendering with a more modern approach.",
     },
     supported_version: [
       { version: "1.21.5", status: "unsupported" },
@@ -63,7 +80,8 @@ export const features = [
     url: "https://modrinth.com/mod/NNAgCjsB",
     description: {
       zh_CN: "此模组使用异步路径追踪来隐藏不可见的 Tiles/Entities。",
-      en_US: "This mod uses async path-tracing to hide Tiles/Entities that are not visible.",
+      en_US:
+        "This mod uses async path-tracing to hide Tiles/Entities that are not visible.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -78,7 +96,8 @@ export const features = [
     url: "https://modrinth.com/mod/9mtu0sUO",
     description: {
       zh_CN: "消除对文字 IP 服务器地址的滞后反向 DNS 查找。",
-      en_US: "Yeet the laggy reversed DNS lookup for literal IP server addresses.",
+      en_US:
+        "Yeet the laggy reversed DNS lookup for literal IP server addresses.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -93,7 +112,8 @@ export const features = [
     url: "https://modrinth.com/mod/x1hIzbuY",
     description: {
       zh_CN: "此模组允许您在世界仍在后台保存时提前返回标题屏幕。",
-      en_US: "This mod lets you return to the Title Screen early while your world is still saving in the background.",
+      en_US:
+        "This mod lets you return to the Title Screen early while your world is still saving in the background.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -138,7 +158,8 @@ export const features = [
     url: "https://modrinth.com/mod/fQEb0iXm",
     description: {
       zh_CN: "优化 Minecraft 网络堆栈和实体追踪器的 Fabric 模组。",
-      en_US: "A Fabric mod that optimizes the Minecraft networking stack and entity tracker.",
+      en_US:
+        "A Fabric mod that optimizes the Minecraft networking stack and entity tracker.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -167,8 +188,10 @@ export const features = [
     name: "Lithium",
     url: "https://modrinth.com/mod/gvQqBUqZ",
     description: {
-      zh_CN: "Lithium 是一个免费开源的 Minecraft 优化模组，对游戏进行广泛的性能改进。",
-      en_US: "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.",
+      zh_CN:
+        "Lithium 是一个免费开源的 Minecraft 优化模组，对游戏进行广泛的性能改进。",
+      en_US:
+        "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -183,7 +206,8 @@ export const features = [
     url: "https://modrinth.com/mod/nmDcB62a",
     description: {
       zh_CN: "为现代 Minecraft 提供显著且有效的性能改进。",
-      en_US: "Egregious, yet effective performance improvements for modern Minecraft.",
+      en_US:
+        "Egregious, yet effective performance improvements for modern Minecraft.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -197,7 +221,8 @@ export const features = [
     url: "https://modrinth.com/mod/51shyZVL",
     description: {
       zh_CN: "改变多种剔除方式的处理以提高性能的模组。",
-      en_US: "A mod that changes how multiple types of culling are handled in order to improve performance.",
+      en_US:
+        "A mod that changes how multiple types of culling are handled in order to improve performance.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -226,7 +251,8 @@ export const features = [
     url: "https://modrinth.com/mod/RSeLon5O",
     description: {
       zh_CN: "粒子优化。粒子剔除、渲染优化和可配置的粒子禁用。",
-      en_US: "Particle optimizations. Particle culling, rendering optimization, and configurable disabling of particles.",
+      en_US:
+        "Particle optimizations. Particle culling, rendering optimization, and configurable disabling of particles.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -240,7 +266,8 @@ export const features = [
     url: "https://modrinth.com/mod/rrls",
     description: {
       zh_CN: "让资源包在后台加载，这样你可以在等待时做其他事情！",
-      en_US: "Makes resource packs load in the background, allowing you to do other things while waiting!",
+      en_US:
+        "Makes resource packs load in the background, allowing you to do other things while waiting!",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -255,7 +282,8 @@ export const features = [
     url: "https://modrinth.com/mod/Ps1zyz6x",
     description: {
       zh_CN: "重写光照引擎以修复光照性能和光照错误。",
-      en_US: "Rewrites the light engine to fix lighting performance and lighting errors.",
+      en_US:
+        "Rewrites the light engine to fix lighting performance and lighting errors.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -269,8 +297,10 @@ export const features = [
     name: "Sodium",
     url: "https://modrinth.com/mod/AANobbMI",
     description: {
-      zh_CN: "Sodium 是一个强大的 Minecraft 渲染引擎，大大提高帧率和减少微卡顿，同时修复许多图形问题。",
-      en_US: "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues.",
+      zh_CN:
+        "Sodium 是一个强大的 Minecraft 渲染引擎，大大提高帧率和减少微卡顿，同时修复许多图形问题。",
+      en_US:
+        "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -285,7 +315,8 @@ export const features = [
     url: "https://modrinth.com/mod/wnEe9KBa",
     description: {
       zh_CN: "旨在提高高玩家数量时服务器性能的 Fabric 模组。",
-      en_US: "A Fabric mod designed to improve server performance at high playercounts.",
+      en_US:
+        "A Fabric mod designed to improve server performance at high playercounts.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -300,7 +331,8 @@ export const features = [
     url: "https://github.com/FoundationGames/Animatica",
     description: {
       zh_CN: "允许使用 MCPatcher/OptiFine 动画格式为更多游戏纹理制作动画。",
-      en_US: "Allow for animating more game textures using the MCPatcher/OptiFine animation format.",
+      en_US:
+        "Allow for animating more game textures using the MCPatcher/OptiFine animation format.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -314,8 +346,10 @@ export const features = [
     name: "CIT Resewn",
     url: "https://modrinth.com/mod/otVJckYQ",
     description: {
-      zh_CN: "重新实现 MCPatcher 的 CIT（来自 OptiFine 资源包的自定义物品纹理）。",
-      en_US: "Re-implements MCPatcher's CIT (custom item textures from optifine resource packs)",
+      zh_CN:
+        "重新实现 MCPatcher 的 CIT（来自 OptiFine 资源包的自定义物品纹理）。",
+      en_US:
+        "Re-implements MCPatcher's CIT (custom item textures from optifine resource packs)",
     },
     supported_version: [
       { version: "1.21.5", status: "deprecated" },
@@ -328,10 +362,27 @@ export const features = [
     name: "Continuity",
     url: "https://modrinth.com/mod/1IjD5062",
     description: {
-      zh_CN: "Continuity 是一个 Fabric 模组，允许使用 OptiFine 连接纹理格式、OptiFine 发光纹理格式（仅限方块和物品模型）或 OptiFine 自定义方块层格式的资源包在没有 OptiFine 的情况下工作。",
-      en_US: "Continuity is a Fabric mod that allows resource packs that use the OptiFine connected textures format, OptiFine emissive textures format (only for blocks and item models), or OptiFine custom block layers format to work without OptiFine.",
+      zh_CN:
+        "Continuity 是一个 Fabric 模组，允许使用 OptiFine 连接纹理格式、OptiFine 发光纹理格式（仅限方块和物品模型）或 OptiFine 自定义方块层格式的资源包在没有 OptiFine 的情况下工作。",
+      en_US:
+        "Continuity is a Fabric mod that allows resource packs that use the OptiFine connected textures format, OptiFine emissive textures format (only for blocks and item models), or OptiFine custom block layers format to work without OptiFine.",
     },
     supported_version: [
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
+  },
+  {
+    name: "Controlify",
+    url: "https://modrinth.com/mod/controlify",
+    description: {
+      zh_CN: "为 Minecraft Java 版添加控制器支持！",
+      en_US: "Adds controller support to Minecraft Java edition!",
+    },
+    supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -342,8 +393,10 @@ export const features = [
     name: "Entity Model Features",
     url: "https://modrinth.com/mod/4I1XuqiY",
     description: {
-      zh_CN: "这是 ETF 模组的扩展，添加了对 OptiFine 格式自定义实体模型（CEM）资源包的支持。",
-      en_US: "This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) resource packs.",
+      zh_CN:
+        "这是 ETF 模组的扩展，添加了对 OptiFine 格式自定义实体模型（CEM）资源包的支持。",
+      en_US:
+        "This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) resource packs.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -357,8 +410,10 @@ export const features = [
     name: "Entity Sound Features",
     url: "https://modrinth.com/mod/IMuO8COj",
     description: {
-      zh_CN: "这是 ETF 模组的扩展，添加了对 ESF 格式资源包的支持。ESF 格式允许您使用 .properties 文件改变实体的声音，就像 OptiFine/ETF 随机纹理一样。",
-      en_US: "This is an expansion of the ETF mod, it adds support for ESF format resource packs. The ESF format allows you to vary an entities sound with .properties files just like OptiFine/ETF random textures.",
+      zh_CN:
+        "这是 ETF 模组的扩展，添加了对 ESF 格式资源包的支持。ESF 格式允许您使用 .properties 文件改变实体的声音，就像 OptiFine/ETF 随机纹理一样。",
+      en_US:
+        "This is an expansion of the ETF mod, it adds support for ESF format resource packs. The ESF format allows you to vary an entities sound with .properties files just like OptiFine/ETF random textures.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -371,8 +426,10 @@ export const features = [
     name: "Entity Texture Features",
     url: "https://modrinth.com/mod/BVzZfTc1",
     description: {
-      zh_CN: "添加对资源包驱动的实体纹理功能的支持，包括一些 OptiFine 功能：随机和自定义纹理、发光纹理。",
-      en_US: "Adds support for resource-pack driven features for entity textures including some OptiFine features: Random & Custom textures, Emissive textures.",
+      zh_CN:
+        "添加对资源包驱动的实体纹理功能的支持，包括一些 OptiFine 功能：随机和自定义纹理、发光纹理。",
+      en_US:
+        "Adds support for resource-pack driven features for entity textures including some OptiFine features: Random & Custom textures, Emissive textures.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -414,8 +471,10 @@ export const features = [
     name: "Iris Shaders",
     url: "https://modrinth.com/mod/YL57xq9U",
     description: {
-      zh_CN: "一个现代的 Minecraft 着色器模组，旨在与现有的 OptiFine 着色器包兼容。",
-      en_US: "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs.",
+      zh_CN:
+        "一个现代的 Minecraft 着色器模组，旨在与现有的 OptiFine 着色器包兼容。",
+      en_US:
+        "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -444,8 +503,10 @@ export const features = [
     name: "OptiGUI",
     url: "https://modrinth.com/mod/JuksLGBQ",
     description: {
-      zh_CN: "在 Fabric 和 Quilt 上提供快速的自定义 GUI 纹理，并内置 OptiFine 自定义 GUI 资源包支持。",
-      en_US: "Blazing fast custom GUI textures on Fabric and Quilt with built-in OptiFine custom GUI resource pack support.",
+      zh_CN:
+        "在 Fabric 和 Quilt 上提供快速的自定义 GUI 纹理，并内置 OptiFine 自定义 GUI 资源包支持。",
+      en_US:
+        "Blazing fast custom GUI textures on Fabric and Quilt with built-in OptiFine custom GUI resource pack support.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -459,8 +520,10 @@ export const features = [
     name: "Polytone",
     url: "https://modrinth.com/mod/3qAYkBMB",
     description: {
-      zh_CN: "自定义地图颜色、方块颜色、色图和方块声音、生物群系颜色、染料颜色。支持 Optifine 格式。适用于资源包。",
-      en_US: "Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs.",
+      zh_CN:
+        "自定义地图颜色、方块颜色、色图和方块声音、生物群系颜色、染料颜色。支持 Optifine 格式。适用于资源包。",
+      en_US:
+        "Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs.",
     },
     supported_version: [
       { version: "1.21.5", status: "unsupported" },
@@ -547,8 +610,10 @@ export const features = [
     name: "Better F3",
     url: "https://modrinth.com/mod/8shC1gFX",
     description: {
-      zh_CN: "替换 Minecraft 原始调试 HUD 的模组，提供高度可定制和更易读的 HUD。",
-      en_US: "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
+      zh_CN:
+        "替换 Minecraft 原始调试 HUD 的模组，提供高度可定制和更易读的 HUD。",
+      en_US:
+        "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -578,7 +643,8 @@ export const features = [
     url: "https://modrinth.com/mod/MS1ZMyR7",
     description: {
       zh_CN: "在玩家列表中显示实际的 ping 数值而不仅仅是条形。",
-      en_US: "Shows the actual ping number instead of just bars in the player list.",
+      en_US:
+        "Shows the actual ping number instead of just bars in the player list.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -591,8 +657,10 @@ export const features = [
     name: "Better Text Selection",
     url: "https://modrinth.com/mod/better-selection",
     description: {
-      zh_CN: "改进文本选择功能，使其更易用（`Ctrl`+`←` 和 `Ctrl`+`→` 移动按词），并启用鼠标选择文本。",
-      en_US: "Makes text more pleasant to select by improving the \"move by word\" feature (`Ctrl`+`←` and `Ctrl`+`→`), and enabling text selection with the mouse.",
+      zh_CN:
+        "改进文本选择功能，使其更易用（`Ctrl`+`←` 和 `Ctrl`+`→` 移动按词），并启用鼠标选择文本。",
+      en_US:
+        'Makes text more pleasant to select by improving the "move by word" feature (`Ctrl`+`←` and `Ctrl`+`→`), and enabling text selection with the mouse.',
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -636,7 +704,8 @@ export const features = [
     url: "https://modrinth.com/mod/bobby",
     description: {
       zh_CN: "允许渲染距离大于服务器的视距。",
-      en_US: "Allows for render distances greater than the server's view-distance.",
+      en_US:
+        "Allows for render distances greater than the server's view-distance.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -665,8 +734,10 @@ export const features = [
     name: "Carpet Mod",
     url: "https://modrinth.com/mod/carpet",
     description: {
-      zh_CN: "Carpet 是一个用于原版 Minecraft 的模组，允许您从技术角度全面控制游戏。",
-      en_US: "Carpet is a mod for vanilla Minecraft that allows you to take full control of what matters from a technical perspective of the game.",
+      zh_CN:
+        "Carpet 是一个用于原版 Minecraft 的模组，允许您从技术角度全面控制游戏。",
+      en_US:
+        "Carpet is a mod for vanilla Minecraft that allows you to take full control of what matters from a technical perspective of the game.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -674,6 +745,21 @@ export const features = [
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
       { version: "1.20.1", status: "supported" },
+    ],
+  },
+  {
+    name: "Chat Animation",
+    url: "https://modrinth.com/mod/chatanimation",
+    description: {
+      zh_CN: "使聊天消息以平滑动画的方式出现。",
+      en_US: "Makes chat messages appear with a smooth animation.",
+    },
+    supported_version: [
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "unsupported" },
     ],
   },
   {
@@ -696,7 +782,8 @@ export const features = [
     url: "https://modrinth.com/mod/MOqt4Z5n",
     description: {
       zh_CN: "一个多功能的客户端聊天模组，使聊天更有用和可定制。",
-      en_US: "A versatile client-side chat mod that makes the chat more useful and customizable.",
+      en_US:
+        "A versatile client-side chat mod that makes the chat more useful and customizable.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -711,7 +798,8 @@ export const features = [
     url: "https://modrinth.com/mod/5lvjfaRs",
     description: {
       zh_CN: "从调试屏幕中移除无用信息。",
-      en_US: "A mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
+      en_US:
+        "A mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -724,8 +812,10 @@ export const features = [
     name: "Controlling",
     url: "https://modrinth.com/mod/xv94TkTM",
     description: {
-      zh_CN: "添加使用名称在 KeyBinding 菜单中搜索键绑定的功能，允许玩家轻松找到菜单中的键绑定。",
-      en_US: "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
+      zh_CN:
+        "添加使用名称在 KeyBinding 菜单中搜索键绑定的功能，允许玩家轻松找到菜单中的键绑定。",
+      en_US:
+        "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -768,7 +858,8 @@ export const features = [
     url: "https://modrinth.com/mod/WhbRG4iK",
     description: {
       zh_CN: "此 Fabric 模组为树叶方块添加了一个精致的小粒子效果。",
-      en_US: "This Fabric mod adds a neat little particle effect to leaf blocks.",
+      en_US:
+        "This Fabric mod adds a neat little particle effect to leaf blocks.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -783,7 +874,8 @@ export const features = [
     url: "https://modrinth.com/mod/wdLuzzEP",
     description: {
       zh_CN: "Gamma / 亮度 / 夜视模组，轻松在黑暗中看清。",
-      en_US: "Gamma / Brightness / Night Vision mod, making it easy to see in the dark.",
+      en_US:
+        "Gamma / Brightness / Night Vision mod, making it easy to see in the dark.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -798,7 +890,8 @@ export const features = [
     url: "https://modrinth.com/mod/highlight",
     description: {
       zh_CN: "在物品名称下显示有关所持物品的信息（如附魔）。",
-      en_US: "Shows information (like enchantments) about the held item under its name.",
+      en_US:
+        "Shows information (like enchantments) about the held item under its name.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -813,7 +906,8 @@ export const features = [
     url: "https://modrinth.com/mod/highlight",
     description: {
       zh_CN: "使特定方块的可视化效果更符合其模型。",
-      en_US: "Highlight changes the visualization of specific blocks in the game to have more aligned selections to their models.",
+      en_US:
+        "Highlight changes the visualization of specific blocks in the game to have more aligned selections to their models.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -827,7 +921,8 @@ export const features = [
     url: "https://modrinth.com/mod/Orvt0mRa",
     description: {
       zh_CN: "基于 Indigo 的 Sodium 附加组件，提供对 Fabric 渲染 API 的支持。",
-      en_US: "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+      en_US:
+        "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
     },
     supported_version: [
       { version: "1.21.5", status: "deprecated" },
@@ -840,8 +935,10 @@ export const features = [
     name: "Inventory Profiles Next",
     url: "https://modrinth.com/mod/O7RBXm3n",
     description: {
-      zh_CN: "控制您的库存。排序。移动匹配物品。全部丢弃。锁定槽位。装备套装！还有更多。",
-      en_US: "Inventory under your control. Sort. Move matching Items. Throw all. Locked slots. Gear sets! And much more.",
+      zh_CN:
+        "控制您的库存。排序。移动匹配物品。全部丢弃。锁定槽位。装备套装！还有更多。",
+      en_US:
+        "Inventory under your control. Sort. Move matching Items. Throw all. Locked slots. Gear sets! And much more.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -856,7 +953,8 @@ export const features = [
     url: "https://modrinth.com/mod/RPOSBQgq",
     description: {
       zh_CN: "用于在库存中交换物品的概念验证模组。",
-      en_US: "Proof of concept mod to for a different system to swap items in the inventory.",
+      en_US:
+        "Proof of concept mod to for a different system to swap items in the inventory.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -900,7 +998,8 @@ export const features = [
     url: "https://modrinth.com/mod/RTWpcTBp",
     description: {
       zh_CN: "提供比原版 Minecraft“开放到局域网”屏幕更好的 UI 和更多功能。",
-      en_US: "Provides a better UI than the vanilla Minecraft \"Open to LAN\" screen and more features.",
+      en_US:
+        'Provides a better UI than the vanilla Minecraft "Open to LAN" screen and more features.',
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -944,7 +1043,8 @@ export const features = [
     url: "https://modrinth.com/mod/UMxybHE8",
     description: {
       zh_CN: "可配置的“mini-F3”信息行和各种覆盖渲染器。",
-      en_US: "Configurable \"mini-F3\" info lines, and various overlay renderers.",
+      en_US:
+        'Configurable "mini-F3" info lines, and various overlay renderers.',
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -974,7 +1074,8 @@ export const features = [
     url: "https://modrinth.com/mod/3sjzyvGR",
     description: {
       zh_CN: "现代桌面图形应用程序框架和低级 3D 图形引擎。",
-      en_US: "Modern desktop graphics application framework and low-level 3D graphics engine.",
+      en_US:
+        "Modern desktop graphics application framework and low-level 3D graphics engine.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -988,7 +1089,8 @@ export const features = [
     url: "https://modrinth.com/mod/aC3cM3Vq",
     description: {
       zh_CN: "通过为常用鼠标按钮添加各种附加功能来增强库存管理。",
-      en_US: "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
+      en_US:
+        "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -1002,8 +1104,10 @@ export const features = [
     name: "No Chat Reports",
     url: "https://modrinth.com/mod/qQyHxfxd",
     description: {
-      zh_CN: "从玩家消息中剥离加密签名，使其无法跟踪并与您的 Mojang/Microsoft 账户关联，以及使用玩家聊天报告功能。",
-      en_US: "Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account, as well as use Player Chat Reporting feature.",
+      zh_CN:
+        "从玩家消息中剥离加密签名，使其无法跟踪并与您的 Mojang/Microsoft 账户关联，以及使用玩家聊天报告功能。",
+      en_US:
+        "Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account, as well as use Player Chat Reporting feature.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -1135,7 +1239,8 @@ export const features = [
     url: "https://modrinth.com/mod/1KiJRrTg",
     description: {
       zh_CN: "每次在游戏中截图时，图像数据都会复制到剪贴板。",
-      en_US: "Any time you take a screenshot in the game, the image data is copied to the clipboard.",
+      en_US:
+        "Any time you take a screenshot in the game, the image data is copied to the clipboard.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -1152,10 +1257,11 @@ export const features = [
       en_US: "Smoothly scrolls chat, hotbar, creative inventory and much more!",
     },
     supported_version: [
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
-      { version: "1.20.1", status: "unsupported" },
+      { version: "1.20.1", status: "supported" },
     ],
   },
   {
@@ -1177,8 +1283,27 @@ export const features = [
     name: "Status Effect Bars",
     url: "https://modrinth.com/mod/status-effect-bars",
     description: {
-      zh_CN: "在状态效果覆盖层中添加可自定义的条形图，以显示效果的剩余持续时间。",
-      en_US: "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
+      zh_CN:
+        "在状态效果覆盖层中添加可自定义的条形图，以显示效果的剩余持续时间。",
+      en_US:
+        "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
+    },
+    supported_version: [
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
+  },
+  {
+    name: "Sodium Shadowy Path Blocks",
+    url: "https://modrinth.com/mod/sodium-shadowy-path-blocks",
+    description: {
+      zh_CN:
+        "使用 Sodium 时，为非完整方块（例如泥土路径，以及它们紧邻完整方块时出现的深色阴影）重新引入了类似原版的平滑光照。",
+      en_US:
+        "Reintroduces vanilla-like smooth lighting to non-full blocks (e.g. dirt paths and how they have dark shading when directly next to a full block) when using Sodium.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -1193,7 +1318,8 @@ export const features = [
     url: "https://modrinth.com/mod/BWloQ9jK",
     description: {
       zh_CN: "提供新的和增强的视觉实用工具，用于书籍、标志、铁砧和游戏内聊天。",
-      en_US: "Offering new and enhanced visual utilities for books, signs, anvil and the in-game chat.",
+      en_US:
+        "Offering new and enhanced visual utilities for books, signs, anvil and the in-game chat.",
     },
     supported_version: [
       { version: "1.21.5", status: "supported" },
@@ -1235,8 +1361,10 @@ export const features = [
     name: "ViaFabricPlus",
     url: "https://modrinth.com/mod/rIC2XJV4",
     description: {
-      zh_CN: "Fabric 模组，允许连接到每个 Minecraft 服务器版本（发布版、Beta 版、Alpha 版、Classic 版、快照版、基岩版），并带有游戏性质量提升修复。",
-      en_US: "Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay.",
+      zh_CN:
+        "Fabric 模组，允许连接到每个 Minecraft 服务器版本（发布版、Beta 版、Alpha 版、Classic 版、快照版、基岩版），并带有游戏性质量提升修复。",
+      en_US:
+        "Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -1250,8 +1378,10 @@ export const features = [
     name: "Wavey Capes",
     url: "https://modrinth.com/mod/kYuIpRLv",
     description: {
-      zh_CN: "披风不应该是一个静态的平板。Wavey Capes 模组以更流畅的方式为披风添加动画，添加物理效果并以一个弯曲的部分渲染，而不是小立方体。",
-      en_US: "The cape shouldn't be a static slab. Wavey Capes mod animates the cape in a more fluent way, adding physics and rendering it in one bent part instead of small cubes.",
+      zh_CN:
+        "披风不应该是一个静态的平板。Wavey Capes 模组以更流畅的方式为披风添加动画，添加物理效果并以一个弯曲的部分渲染，而不是小立方体。",
+      en_US:
+        "The cape shouldn't be a static slab. Wavey Capes mod animates the cape in a more fluent way, adding physics and rendering it in one bent part instead of small cubes.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -1265,8 +1395,10 @@ export const features = [
     name: "Xaero's Minimap",
     url: "https://modrinth.com/mod/1bokaNcj",
     description: {
-      zh_CN: "Minecraft 中最原版外观的小地图。显示附近世界地形、玩家、生物、实体的地图在屏幕角落。",
-      en_US: "The most vanilla-looking minimap for Minecraft. Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen.",
+      zh_CN:
+        "Minecraft 中最原版外观的小地图。显示附近世界地形、玩家、生物、实体的地图在屏幕角落。",
+      en_US:
+        "The most vanilla-looking minimap for Minecraft. Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
@@ -1280,8 +1412,10 @@ export const features = [
     name: "Xaero's World Map",
     url: "https://modrinth.com/mod/NcUtCpym",
     description: {
-      zh_CN: "添加一个全屏世界地图，显示您在世界上探索过的内容。与 Xaero's Minimap 配合使用效果更佳。",
-      en_US: "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.",
+      zh_CN:
+        "添加一个全屏世界地图，显示您在世界上探索过的内容。与 Xaero's Minimap 配合使用效果更佳。",
+      en_US:
+        "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.",
     },
     supported_version: [
       { version: "1.21.6", status: "supported" },
