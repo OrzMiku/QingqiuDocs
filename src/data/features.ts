@@ -955,6 +955,21 @@ export const features = [
     ],
   },
   {
+    name: "Model Gap Fix",
+    url: "https://modrinth.com/mod/modelfix",
+    description: {
+      zh_CN: "修复方块模型和物品模型中的间隙。",
+      en_US: "Fixes gaps in Block Models and Item Models",
+    },
+    supported_version: [
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
+  },
+  {
     name: "Modern UI",
     url: "https://modrinth.com/mod/3sjzyvGR",
     description: {
