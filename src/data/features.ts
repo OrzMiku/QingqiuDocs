@@ -7,6 +7,7 @@ export const features = [
       en_US: "Optimization mod that focuses on things other than rendering.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -53,6 +54,7 @@ export const features = [
         "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "deprecated" },
@@ -100,6 +102,7 @@ export const features = [
         "Yeet the laggy reversed DNS lookup for literal IP server addresses.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -146,6 +149,7 @@ export const features = [
       en_US: "Speed up and optimize immediate mode rendering in Minecraft.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -177,6 +181,7 @@ export const features = [
       en_US: "Reduces load times and adds fallbacks for languages.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -194,6 +199,7 @@ export const features = [
         "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -225,6 +231,7 @@ export const features = [
         "A mod that changes how multiple types of culling are handled in order to improve performance.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -382,6 +389,7 @@ export const features = [
       en_US: "Adds controller support to Minecraft Java edition!",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -540,6 +548,7 @@ export const features = [
       en_US: "A simple zoom mod by Nolij.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -663,6 +672,7 @@ export const features = [
         'Makes text more pleasant to select by improving the "move by word" feature (`Ctrl`+`←` and `Ctrl`+`→`), and enabling text selection with the mouse.',
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -678,6 +688,7 @@ export const features = [
       en_US: "Improves the statistics screen and makes it more useful.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -693,6 +704,8 @@ export const features = [
       en_US: "Improves third person camera view.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -708,6 +721,7 @@ export const features = [
         "Allows for render distances greater than the server's view-distance.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -723,6 +737,7 @@ export const features = [
       en_US: "A calculator in your chat with shortcuts designed for Minecraft.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -740,6 +755,7 @@ export const features = [
         "Carpet is a mod for vanilla Minecraft that allows you to take full control of what matters from a technical perspective of the game.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -770,6 +786,7 @@ export const features = [
       en_US: "This mod adds player heads next to their chat messages.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -846,6 +863,7 @@ export const features = [
       en_US: "Dynamic Crosshair that changes shape based on what is targeted.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -862,6 +880,7 @@ export const features = [
         "This Fabric mod adds a neat little particle effect to leaf blocks.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -878,6 +897,7 @@ export const features = [
         "Gamma / Brightness / Night Vision mod, making it easy to see in the dark.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -972,6 +992,7 @@ export const features = [
       en_US: "Minecraft mod shows what you are looking at.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1017,6 +1038,7 @@ export const features = [
       en_US: "A modern schematic mod.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1047,6 +1069,7 @@ export const features = [
         'Configurable "mini-F3" info lines, and various overlay renderers.',
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1062,6 +1085,7 @@ export const features = [
       en_US: "Fixes gaps in Block Models and Item Models",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1213,6 +1237,7 @@ export const features = [
       en_US: "In-game resource pack, data pack and shader browser.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1306,6 +1331,7 @@ export const features = [
         "Reintroduces vanilla-like smooth lighting to non-full blocks (e.g. dirt paths and how they have dark shading when directly next to a full block) when using Sodium.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1350,6 +1376,7 @@ export const features = [
       en_US: "Adds a bunch of configurable client-side tweaks.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1367,6 +1394,7 @@ export const features = [
         "Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
