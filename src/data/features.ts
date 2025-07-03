@@ -407,6 +407,7 @@ export const features = [
         "This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) resource packs.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -440,6 +441,7 @@ export const features = [
         "Adds support for resource-pack driven features for entity textures including some OptiFine features: Random & Custom textures, Emissive textures.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -803,6 +805,7 @@ export const features = [
         "A versatile client-side chat mod that makes the chat more useful and customizable.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -961,7 +964,8 @@ export const features = [
         "Inventory under your control. Sort. Move matching Items. Throw all. Locked slots. Gear sets! And much more.",
     },
     supported_version: [
-      { version: "1.21.5", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1134,6 +1138,7 @@ export const features = [
         "Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account, as well as use Player Chat Reporting feature.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1164,6 +1169,7 @@ export const features = [
       en_US: "A simple mod to solve various problems with packets/NBT's.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1194,6 +1200,7 @@ export const features = [
       en_US: "Be notified about all the things you've just collected.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1222,6 +1229,7 @@ export const features = [
       en_US: "Alternative Options Menu for Sodium.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1297,6 +1305,7 @@ export const features = [
       en_US: "A Sodium addon that adds features that shouldn't be in Sodium.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
