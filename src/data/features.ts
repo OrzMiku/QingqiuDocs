@@ -502,6 +502,7 @@ export const features = [
       en_US: "The most feature-complete dynamic lighting mod for Fabric.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -581,6 +582,7 @@ export const features = [
       en_US: "Adds various food-related HUD improvements.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -838,6 +840,8 @@ export const features = [
         "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -917,6 +921,7 @@ export const features = [
         "Shows information (like enchantments) about the held item under its name.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1027,6 +1032,7 @@ export const features = [
         'Provides a better UI than the vanilla Minecraft "Open to LAN" screen and more features.',
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1323,6 +1329,7 @@ export const features = [
         "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1438,6 +1445,7 @@ export const features = [
         "The most vanilla-looking minimap for Minecraft. Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1455,6 +1463,7 @@ export const features = [
         "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
