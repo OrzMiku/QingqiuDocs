@@ -622,23 +622,6 @@ export const features = [
     ],
   },
   {
-    name: "Better F3",
-    url: "https://modrinth.com/mod/8shC1gFX",
-    description: {
-      zh_CN:
-        "替换 Minecraft 原始调试 HUD 的模组，提供高度可定制和更易读的 HUD。",
-      en_US:
-        "BetterF3 is a mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
-    },
-    supported_version: [
-      { version: "1.21.6", status: "supported" },
-      { version: "1.21.5", status: "supported" },
-      { version: "1.21.4", status: "supported" },
-      { version: "1.21.1", status: "supported" },
-      { version: "1.20.1", status: "supported" },
-    ],
-  },
-  {
     name: "Better Mount HUD",
     url: "https://modrinth.com/mod/kqJFAPU9",
     description: {
