@@ -23,6 +23,7 @@ export const features = [
       en_US: "See your held items when in a moving boat!",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1479,6 +1480,7 @@ export const features = [
       en_US: "Xaero WorldMap / Minimap Extra Features.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
