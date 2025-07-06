@@ -87,6 +87,7 @@ export const features = [
         "This mod uses async path-tracing to hide Tiles/Entities that are not visible.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -120,6 +121,7 @@ export const features = [
         "This mod lets you return to the Title Screen early while your world is still saving in the background.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -264,6 +266,8 @@ export const features = [
         "Particle optimizations. Particle culling, rendering optimization, and configurable disabling of particles.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -279,6 +283,7 @@ export const features = [
         "Makes resource packs load in the background, allowing you to do other things while waiting!",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
