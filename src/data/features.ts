@@ -170,6 +170,7 @@ export const features = [
         "A Fabric mod that optimizes the Minecraft networking stack and entity tracker.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -527,6 +528,7 @@ export const features = [
         "Blazing fast custom GUI textures on Fabric and Quilt with built-in OptiFine custom GUI resource pack support.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -567,13 +569,14 @@ export const features = [
     ],
   },
   {
-    name: "3d-Skin-Layers",
+    name: "3D Skin Layers",
     url: "https://modrinth.com/mod/zV5r3pPn",
     description: {
       zh_CN: "以 3D 方式渲染玩家皮肤层。",
       en_US: "Renders the player skin layer in 3d.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -976,6 +979,7 @@ export const features = [
         "Proof of concept mod to for a different system to swap items in the inventory.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1143,13 +1147,14 @@ export const features = [
     ],
   },
   {
-    name: "NotEnoughAnimations",
+    name: "Not Enough Animations",
     url: "https://modrinth.com/mod/MPCX6s5C",
     description: {
       zh_CN: "在第三人称中添加和改进动画。",
       en_US: "Adding and improving animations in Third-Person.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1418,6 +1423,7 @@ export const features = [
         "The cape shouldn't be a static slab. Wavey Capes mod animates the cape in a more fluent way, adding physics and rendering it in one bent part instead of small cubes.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
