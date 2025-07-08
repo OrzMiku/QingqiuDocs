@@ -383,6 +383,8 @@ export const features = [
         "Continuity is a Fabric mod that allows resource packs that use the OptiFine connected textures format, OptiFine emissive textures format (only for blocks and item models), or OptiFine custom block layers format to work without OptiFine.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
