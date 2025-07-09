@@ -610,6 +610,7 @@ export const features = [
       en_US: "Show the color and age of axolotls when in buckets.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
