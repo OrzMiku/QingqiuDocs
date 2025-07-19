@@ -626,6 +626,8 @@ export const features = [
       en_US: "Improvements to the advancements screen.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -640,6 +642,7 @@ export const features = [
       en_US: "Improves the ingame HUD while riding a mount.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -771,6 +774,7 @@ export const features = [
       en_US: "Makes chat messages appear with a smooth animation.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1294,6 +1298,7 @@ export const features = [
       en_US: "Smoothly scrolls chat, hotbar, creative inventory and much more!",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1362,6 +1367,8 @@ export const features = [
         "Offering new and enhanced visual utilities for books, signs, anvil and the in-game chat.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
