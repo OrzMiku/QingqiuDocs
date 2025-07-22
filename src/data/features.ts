@@ -548,6 +548,8 @@ export const features = [
         "Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs.",
     },
     supported_version: [
+      { version: "1.21.7", status: "unsupported" },
+      { version: "1.21.6", status: "unsupported" },
       { version: "1.21.5", status: "unsupported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
