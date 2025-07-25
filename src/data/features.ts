@@ -42,6 +42,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -58,6 +59,7 @@ export const features = [
         "Reduce resource usage while Minecraft is in the background, idle, or on battery.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -178,6 +180,7 @@ export const features = [
         "A Fabric mod that optimizes the Minecraft networking stack and entity tracker.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -315,6 +318,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -333,6 +337,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -350,6 +355,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -518,6 +524,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -571,9 +578,10 @@ export const features = [
         "Customize Map Color, Block Colors, Colormaps and Block Sounds, Biome Colors, Dye Colors. Supports Optifine format. For Resource Packs.",
     },
     supported_version: [
-      { version: "1.21.7", status: "unsupported" },
-      { version: "1.21.6", status: "unsupported" },
-      { version: "1.21.5", status: "unsupported" },
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
       { version: "1.20.1", status: "supported" },
@@ -655,6 +663,7 @@ export const features = [
       en_US: "Improvements to the advancements screen.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -774,6 +783,7 @@ export const features = [
       en_US: "A calculator in your chat with shortcuts designed for Minecraft.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -792,6 +802,7 @@ export const features = [
         "Carpet is a mod for vanilla Minecraft that allows you to take full control of what matters from a technical perspective of the game.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -808,7 +819,6 @@ export const features = [
       en_US: "Makes chat messages appear with a smooth animation.",
     },
     supported_version: [
-      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -845,21 +855,6 @@ export const features = [
       { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
-      { version: "1.21.5", status: "supported" },
-      { version: "1.21.4", status: "supported" },
-      { version: "1.21.1", status: "supported" },
-      { version: "1.20.1", status: "supported" },
-    ],
-  },
-  {
-    name: "Clean F3",
-    url: "https://modrinth.com/mod/5lvjfaRs",
-    description: {
-      zh_CN: "从调试屏幕中移除无用信息。",
-      en_US:
-        "A mod that replaces Minecraft's original debug HUD with a highly customizable, more human-readable HUD.",
-    },
-    supported_version: [
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -961,6 +956,7 @@ export const features = [
         "Shows information (like enchantments) about the held item under its name.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1142,6 +1138,7 @@ export const features = [
       en_US: "Fixes gaps in Block Models and Item Models",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1175,6 +1172,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1244,6 +1242,7 @@ export const features = [
     },
     supported_version: [
       { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1391,6 +1390,7 @@ export const features = [
         "Adds customizable bars to the status effects overlay to show the remaining duration of effects.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1564,19 +1564,39 @@ export const features = [
     name: "Euphoria Patches",
     url: "https://modrinth.com/mod/4H6sumDB",
     description: {
-      zh_CN: "Euphoria Patches 就是这样一个补丁，它旨在通过加入更多的可配置设置项和功能，极大地强化了Complementary Shaders 所可以呈现的效果。",
-      en_US: "Euphoria Patches is an add-on for Complementary Shaders, extending it with more optional features and settings.",
+      zh_CN:
+        "Euphoria Patches 就是这样一个补丁，它旨在通过加入更多的可配置设置项和功能，极大地强化了Complementary Shaders 所可以呈现的效果。",
+      en_US:
+        "Euphoria Patches is an add-on for Complementary Shaders, extending it with more optional features and settings.",
     },
-    supported_version: [{ version: "1.21.8", status: "supported" }],
+    supported_version: [
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
   },
   {
     name: "Default Options",
     url: "https://modrinth.com/mod/WEg59z5b",
     description: {
-      zh_CN: "整合包作者可以用这个模组来设置默认的设置以及按键绑定，而无需在整合包更新时覆盖用户的设置。",
-      en_US: "This mod can be used by Modpack developers to distribute default options and keybindings without overriding user changes on every modpack update.",
+      zh_CN:
+        "整合包作者可以用这个模组来设置默认的设置以及按键绑定，而无需在整合包更新时覆盖用户的设置。",
+      en_US:
+        "This mod can be used by Modpack developers to distribute default options and keybindings without overriding user changes on every modpack update.",
     },
-    supported_version: [{ version: "1.21.8", status: "supported" }],
+    supported_version: [
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
   },
   {
     name: "Your Options Shall Be Respected",
@@ -1585,6 +1605,14 @@ export const features = [
       zh_CN: "你的设置应该被尊重。",
       en_US: "Your options shall be respected.",
     },
-    supported_version: [{ version: "1.21.8", status: "supported" }],
+    supported_version: [
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
+      { version: "1.21.5", status: "supported" },
+      { version: "1.21.4", status: "supported" },
+      { version: "1.21.1", status: "supported" },
+      { version: "1.20.1", status: "supported" },
+    ],
   },
 ];
