@@ -1271,6 +1271,8 @@ export const features = [
       en_US: "Clean and Customizable. Alternative to Just Enough Items/JEI.",
     },
     supported_version: [
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
