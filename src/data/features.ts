@@ -7,6 +7,7 @@ export const features = [
       en_US: "Optimization mod that focuses on things other than rendering.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -23,6 +24,7 @@ export const features = [
       en_US: "See your held items when in a moving boat!",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -39,6 +41,7 @@ export const features = [
       en_US: "Improve the chunk performance of Minecraft.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -87,6 +90,7 @@ export const features = [
         "This mod uses async path-tracing to hide Tiles/Entities that are not visible.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -104,6 +108,7 @@ export const features = [
         "Yeet the laggy reversed DNS lookup for literal IP server addresses.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -121,6 +126,7 @@ export const features = [
         "This mod lets you return to the Title Screen early while your world is still saving in the background.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -137,6 +143,7 @@ export const features = [
       en_US: "Reduces memory usage.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -153,6 +160,7 @@ export const features = [
       en_US: "Speed up and optimize immediate mode rendering in Minecraft.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -186,6 +194,7 @@ export const features = [
       en_US: "Reduces load times and adds fallbacks for languages.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -204,6 +213,7 @@ export const features = [
         "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -236,6 +246,7 @@ export const features = [
         "A mod that changes how multiple types of culling are handled in order to improve performance.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -267,6 +278,7 @@ export const features = [
         "Particle optimizations. Particle culling, rendering optimization, and configurable disabling of particles.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -284,6 +296,7 @@ export const features = [
         "Makes resource packs load in the background, allowing you to do other things while waiting!",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -301,6 +314,7 @@ export const features = [
         "Rewrites the light engine to fix lighting performance and lighting errors.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -318,6 +332,7 @@ export const features = [
         "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -334,6 +349,7 @@ export const features = [
         "A Fabric mod designed to improve server performance at high playercounts.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -383,6 +399,7 @@ export const features = [
         "Continuity is a Fabric mod that allows resource packs that use the OptiFine connected textures format, OptiFine emissive textures format (only for blocks and item models), or OptiFine custom block layers format to work without OptiFine.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -399,6 +416,7 @@ export const features = [
       en_US: "Adds controller support to Minecraft Java edition!",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -417,6 +435,7 @@ export const features = [
         "This is an expansion of the ETF mod, it adds support for OptiFine format Custom Entity Model (CEM) resource packs.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -451,6 +470,7 @@ export const features = [
         "Adds support for resource-pack driven features for entity textures including some OptiFine features: Random & Custom textures, Emissive textures.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -497,6 +517,7 @@ export const features = [
         "A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -512,6 +533,7 @@ export const features = [
       en_US: "The most feature-complete dynamic lighting mod for Fabric.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -530,6 +552,7 @@ export const features = [
         "Blazing fast custom GUI textures on Fabric and Quilt with built-in OptiFine custom GUI resource pack support.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -564,6 +587,7 @@ export const features = [
       en_US: "A simple zoom mod by Nolij.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -580,6 +604,7 @@ export const features = [
       en_US: "Renders the player skin layer in 3d.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -596,6 +621,7 @@ export const features = [
       en_US: "Adds various food-related HUD improvements.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -612,6 +638,7 @@ export const features = [
       en_US: "Show the color and age of axolotls when in buckets.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -644,6 +671,7 @@ export const features = [
       en_US: "Improves the ingame HUD while riding a mount.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -677,6 +705,7 @@ export const features = [
         'Makes text more pleasant to select by improving the "move by word" feature (`Ctrl`+`←` and `Ctrl`+`→`), and enabling text selection with the mouse.',
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -693,6 +722,7 @@ export const features = [
       en_US: "Improves the statistics screen and makes it more useful.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -709,6 +739,7 @@ export const features = [
       en_US: "Improves third person camera view.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -726,6 +757,7 @@ export const features = [
         "Allows for render distances greater than the server's view-distance.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -792,6 +824,7 @@ export const features = [
       en_US: "This mod adds player heads next to their chat messages.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -809,6 +842,7 @@ export const features = [
         "A versatile client-side chat mod that makes the chat more useful and customizable.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -842,6 +876,7 @@ export const features = [
         "Adds the ability to search for keybinds using their name in the KeyBinding menu, this allows players to easily find a key binding in the menu.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -872,6 +907,7 @@ export const features = [
       en_US: "Dynamic Crosshair that changes shape based on what is targeted.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -889,6 +925,7 @@ export const features = [
         "This Fabric mod adds a neat little particle effect to leaf blocks.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -906,6 +943,7 @@ export const features = [
         "Gamma / Brightness / Night Vision mod, making it easy to see in the dark.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -971,6 +1009,7 @@ export const features = [
         "Inventory under your control. Sort. Move matching Items. Throw all. Locked slots. Gear sets! And much more.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -988,6 +1027,7 @@ export const features = [
         "Proof of concept mod to for a different system to swap items in the inventory.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1004,6 +1044,7 @@ export const features = [
       en_US: "Minecraft mod shows what you are looking at.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1035,6 +1076,7 @@ export const features = [
         'Provides a better UI than the vanilla Minecraft "Open to LAN" screen and more features.',
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1051,6 +1093,7 @@ export const features = [
       en_US: "A modern schematic mod.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1082,6 +1125,7 @@ export const features = [
         'Configurable "mini-F3" info lines, and various overlay renderers.',
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1130,6 +1174,7 @@ export const features = [
         "A mod that enhances the inventory management by adding various additional functions to the usual mouse buttons.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1147,6 +1192,7 @@ export const features = [
         "Strips cryptographic signatures from player messages, making it impossible to track and associate them with your Mojang/Microsoft account, as well as use Player Chat Reporting feature.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1163,6 +1209,7 @@ export const features = [
       en_US: "Adding and improving animations in Third-Person.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1179,6 +1226,7 @@ export const features = [
       en_US: "A simple mod to solve various problems with packets/NBT's.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1195,6 +1243,7 @@ export const features = [
       en_US: "Additional information in item tooltips.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1210,6 +1259,7 @@ export const features = [
       en_US: "Be notified about all the things you've just collected.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -1239,6 +1289,7 @@ export const features = [
       en_US: "Alternative Options Menu for Sodium.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1255,6 +1306,7 @@ export const features = [
       en_US: "In-game resource pack, data pack and shader browser.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1271,6 +1323,7 @@ export const features = [
       en_US: "Clean and Customizable. Alternative to Just Enough Items/JEI.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1302,6 +1355,7 @@ export const features = [
       en_US: "Smoothly scrolls chat, hotbar, creative inventory and much more!",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1318,6 +1372,7 @@ export const features = [
       en_US: "A Sodium addon that adds features that shouldn't be in Sodium.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1354,6 +1409,7 @@ export const features = [
         "Reintroduces vanilla-like smooth lighting to non-full blocks (e.g. dirt paths and how they have dark shading when directly next to a full block) when using Sodium.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1371,6 +1427,7 @@ export const features = [
         "Offering new and enhanced visual utilities for books, signs, anvil and the in-game chat.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1401,6 +1458,7 @@ export const features = [
       en_US: "Adds a bunch of configurable client-side tweaks.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1419,6 +1477,7 @@ export const features = [
         "Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1437,6 +1496,7 @@ export const features = [
         "The cape shouldn't be a static slab. Wavey Capes mod animates the cape in a more fluent way, adding physics and rendering it in one bent part instead of small cubes.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1455,6 +1515,7 @@ export const features = [
         "The most vanilla-looking minimap for Minecraft. Displays a map of the nearby world terrain, players, mobs, entities in the corner of your screen.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1473,6 +1534,7 @@ export const features = [
         "Adds a full screen world map which shows you what you have explored in the world. Works great together with Xaero's Minimap.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1489,6 +1551,7 @@ export const features = [
       en_US: "Xaero WorldMap / Minimap Extra Features.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
       { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
@@ -1496,5 +1559,32 @@ export const features = [
       { version: "1.21.1", status: "supported" },
       { version: "1.20.1", status: "supported" },
     ],
+  },
+  {
+    name: "Euphoria Patches",
+    url: "https://modrinth.com/mod/4H6sumDB",
+    description: {
+      zh_CN: "Euphoria Patches 就是这样一个补丁，它旨在通过加入更多的可配置设置项和功能，极大地强化了Complementary Shaders 所可以呈现的效果。",
+      en_US: "Euphoria Patches is an add-on for Complementary Shaders, extending it with more optional features and settings.",
+    },
+    supported_version: [{ version: "1.21.8", status: "supported" }],
+  },
+  {
+    name: "Default Options",
+    url: "https://modrinth.com/mod/WEg59z5b",
+    description: {
+      zh_CN: "整合包作者可以用这个模组来设置默认的设置以及按键绑定，而无需在整合包更新时覆盖用户的设置。",
+      en_US: "This mod can be used by Modpack developers to distribute default options and keybindings without overriding user changes on every modpack update.",
+    },
+    supported_version: [{ version: "1.21.8", status: "supported" }],
+  },
+  {
+    name: "Your Options Shall Be Respected",
+    url: "https://modrinth.com/mod/WwbubTsV",
+    description: {
+      zh_CN: "你的设置应该被尊重。",
+      en_US: "Your options shall be respected.",
+    },
+    supported_version: [{ version: "1.21.8", status: "supported" }],
   },
 ];
