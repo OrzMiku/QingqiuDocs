@@ -819,6 +819,8 @@ export const features = [
       en_US: "Makes chat messages appear with a smooth animation.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
       { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
@@ -949,7 +951,7 @@ export const features = [
   },
   {
     name: "Held Item Info",
-    url: "https://modrinth.com/mod/highlight",
+    url: "https://modrinth.com/mod/held-item-info/",
     description: {
       zh_CN: "在物品名称下显示有关所持物品的信息（如附魔）。",
       en_US:
@@ -974,6 +976,9 @@ export const features = [
         "Highlight changes the visualization of specific blocks in the game to have more aligned selections to their models.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1274,6 +1279,9 @@ export const features = [
       en_US: "..An Overly complicated Sound Mod...",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
@@ -1444,6 +1452,9 @@ export const features = [
       en_US: "Makes the Minecraft title fit the screen at all times.",
     },
     supported_version: [
+      { version: "1.21.8", status: "supported" },
+      { version: "1.21.7", status: "supported" },
+      { version: "1.21.6", status: "supported" },
       { version: "1.21.5", status: "supported" },
       { version: "1.21.4", status: "supported" },
       { version: "1.21.1", status: "supported" },
